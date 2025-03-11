@@ -14,8 +14,8 @@
         }
     ],
     "require-dev": {
-        "illuminate/support": "^11",
-        "laravel/pint": "^1.21"
+        "illuminate/support": "^12",
+        "laravel/pint": "^1"
     },
     "require": {
         "gildsmith/contract": "dev-master"
