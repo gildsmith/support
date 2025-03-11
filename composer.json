@@ -1,0 +1,23 @@
+{
+    "name": "gildsmith/support",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gildsmith\\Support\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateusz Chmielewski",
+            "email": "hello@itsmattch.com"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^11",
+        "laravel/pint": "^1.21"
+    },
+    "require": {
+        "gildsmith/contract": "dev-master"
+    }
+}
