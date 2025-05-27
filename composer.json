@@ -14,10 +14,19 @@
         }
     ],
     "require-dev": {
-        "illuminate/support": "^12",
-        "laravel/pint": "^1"
+        "laravel/pint": "^1",
+        "orchestra/testbench": "^10"
     },
     "require": {
-        "gildsmith/contract": "dev-master"
+        "gildsmith/contract": "dev-master",
+        "illuminate/support": "^12",
+        "illuminate/database": "^12"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gildsmith\\Support\\Providers\\AppServiceProvider"
+            ]
+        }
     }
 }
