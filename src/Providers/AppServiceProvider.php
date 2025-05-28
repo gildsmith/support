@@ -2,7 +2,6 @@
 
 namespace Gildsmith\Support\Providers;
 
-use Gildsmith\Support\Utils\PestArchitecturePresets;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -10,8 +9,6 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom($this->packagePath('config/gildsmith.php'), 'gildsmith');
-
-        PestArchitecturePresets::register();
     }
 
     /**
