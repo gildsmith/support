@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @mixin Model
+ *
  * @phpstan-require-extends Model
  */
 trait HasAbstractRelationships
@@ -29,7 +30,6 @@ trait HasAbstractRelationships
         if (is_string($instance)) {
             return new $instance;
         }
-
 
         if (app()->bound($class)) {
             return app($class);
