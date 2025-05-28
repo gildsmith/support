@@ -9,11 +9,6 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom($this->packagePath('config/gildsmith.php'), 'gildsmith');
-
-        // TODO
-        if ($this->app->environment('testing')) {
-            $this->app->register(TestServiceProvider::class);
-        }
     }
 
     /**
