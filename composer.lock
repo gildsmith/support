@@ -587,12 +587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gildsmith/contract.git",
-                "reference": "a12f7ab0e7ce3872aa315847e66036f80b38ab06"
+                "reference": "afdde439595b0fe807bbb0a740d49e3332fd1077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gildsmith/contract/zipball/a12f7ab0e7ce3872aa315847e66036f80b38ab06",
-                "reference": "a12f7ab0e7ce3872aa315847e66036f80b38ab06",
+                "url": "https://api.github.com/repos/gildsmith/contract/zipball/afdde439595b0fe807bbb0a740d49e3332fd1077",
+                "reference": "afdde439595b0fe807bbb0a740d49e3332fd1077",
                 "shasum": ""
             },
             "require-dev": {
@@ -620,7 +620,7 @@
                 "issues": "https://github.com/gildsmith/contract/issues",
                 "source": "https://github.com/gildsmith/contract/tree/master"
             },
-            "time": "2025-06-03T19:22:17+00:00"
+            "time": "2025-06-04T20:16:19+00:00"
         },
         {
             "name": "graham-campbell/result-type",
